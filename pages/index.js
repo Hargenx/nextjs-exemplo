@@ -62,7 +62,7 @@ export default function Home() {
             <br />
           </h1>
           {loading ? (
-            <a href="#" className={styles.card}>
+            <a href="#" className={styles.loader}>
               <img src="/load.gif" />
             </a>
           ) : (
@@ -72,7 +72,7 @@ export default function Home() {
                 type="text"
                 name="todo"
                 onChange={changeHandler}
-                placeholder="Ddigite o item..."
+                placeholder="Digite o item..."
               />
               <br />
             </form>

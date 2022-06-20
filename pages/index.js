@@ -59,7 +59,6 @@ export default function Home() {
           <h1 className={styles.title}>
             TODO App feito com <a href="https://nextjs.org/">Next.js!</a>
             <br />
-            <br />
           </h1>
           {loading ? (
             <a href="#" className={styles.loader}>

@@ -1,8 +1,8 @@
 export default async (req, res) => {
   const token =
-    'AZIuASQgNTc5NjE4MzMtM2E2Ny00MWM0LWJjODUtMzQ4Yjk0ODRjYWQ3YjhjZGNlOTY4YTFkNDA3MWJlMDQ4NmMyM2VmYzAyM2I=';
+    'SEU_TOKEN';
   const url =
-    'https://us1-frank-skylark-37422.upstash.io/lrange/todo/0/100?_token=' +
+    'https://ENDPOINT/lrange/todo/0/100?_token=' +
     token;
 
   return fetch(url)

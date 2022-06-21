@@ -5,9 +5,9 @@ export default async (req, res) => {
   let todo = encodeURI(req.query.todo);
 
   const token =
-    'AZIuASQgNTc5NjE4MzMtM2E2Ny00MWM0LWJjODUtMzQ4Yjk0ODRjYWQ3YjhjZGNlOTY4YTFkNDA3MWJlMDQ4NmMyM2VmYzAyM2I=';
+    'SEU_TOKEN';
   const url =
-    'https://us1-frank-skylark-37422.upstash.io/lrem/todo/1/' +
+    'https://ENDPOINT/lrem/todo/1/' +
     todo +
     '?_token=' +
     token;
